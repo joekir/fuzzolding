@@ -12,6 +12,6 @@
 
 echo $1
 ```
-3. Add to the directory your legit source file that radamsa will be mutating for you.
-4. Run `./fuzz.sh $yourStaringFile $yourScript $howManyLoopsToDo &> fuzz.log`
+3. Add to the directory your legit source file that radamsa will be mutating for you
+4. Run `./fuzz.sh $yourSourceFile $yourScript $howManyLoopsToDo &> fuzz.log`
 5. Review `fuzz.log` for interesting results, then you can correlate the attempt run number with the mutated input file that caused that in the `/out` directory
