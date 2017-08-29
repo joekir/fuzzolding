@@ -1,0 +1,5 @@
+# ignore files in folder foo
+out/*
+
+# but keep the folder
+!out/.gitkeep
