@@ -4,7 +4,7 @@
 
 ### How to use
 
-1. Install [Radamsa](https://github.com/aoh/radamsa)
+1. Install [Radamsa](https://gitlab.com/akihe/radamsa)
 2. Create a script in the directory that calls the thing you want to test taking a single file argument e.g
 
 ```bash
